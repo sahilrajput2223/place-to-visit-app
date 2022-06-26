@@ -1,6 +1,7 @@
 import React from "react";
 
 import AppTitle from "../AppTitle/AppTitle"
+import FilterList from "../FilterList/FilterList";
 
 import "./App.css"
 
@@ -9,6 +10,7 @@ const App = () => {
         <React.Fragment>
             <div className="mainDiv">
                 <AppTitle />
+                <FilterList />
             </div>
         </React.Fragment>
     );
