@@ -1,11 +1,15 @@
 import React from "react";
 
+import AppTitle from "../AppTitle/AppTitle"
+
+import "./App.css"
+
 const App = () => {
     return (
         <React.Fragment>
-            <h1>
-                Place to visit
-            </h1>
+            <div className="mainDiv">
+                <AppTitle />
+            </div>
         </React.Fragment>
     );
 }
