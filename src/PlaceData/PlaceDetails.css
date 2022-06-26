@@ -1,0 +1,31 @@
+.mainPlace {
+    display: inline-grid;
+    margin: 10px;
+
+}
+
+.mainPlace img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border: 0.25rem solid lightcoral;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+.placeInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 5%;
+    border-bottom: 1px dotted black;
+}
+
+.placeDesc {
+    width: 50%;
+}

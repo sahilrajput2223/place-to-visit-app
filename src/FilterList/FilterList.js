@@ -5,7 +5,7 @@ import Filter from "./Filter";
 const FilterList = () => {
     return (
         <React.Fragment>
-            <div className=".filterList">
+            <div>
                 <Filter filterName='all' />
                 <Filter filterName='India' />
                 <Filter filterName='Canada' />
