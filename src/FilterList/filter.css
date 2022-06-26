@@ -1,0 +1,18 @@
+.filterBtn {
+    margin: 20px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 4px 15px;
+    color: lightcoral;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all .3s linear;
+}
+
+.filterBtn:hover {
+    background: lightcoral;
+    color: white;
+    border-radius: 5px;
+}
