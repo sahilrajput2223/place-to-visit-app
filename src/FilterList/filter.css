@@ -16,3 +16,8 @@
     color: white;
     border-radius: 5px;
 }
+
+.filterList {
+    display: flex;
+    justify-content: center;
+}

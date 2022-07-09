@@ -1,14 +1,12 @@
 .mainPlace {
-    display: inline-grid;
     margin: 10px;
-
 }
 
 .mainPlace img {
     object-fit: cover;
     height: 200px;
     width: 100%;
-    border: 0.25rem solid lightcoral;
+    border: 0.15rem solid lightcoral;
     border-radius: 0.25rem;
     display: inline-block;
 }
@@ -26,6 +24,21 @@
     border-bottom: 1px dotted black;
 }
 
+.placeName {
+    font-size: 18px;
+    font-style: oblique;
+    letter-spacing: 1.5px;
+}
+
 .placeDesc {
-    width: 50%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 16px;
+    color: #617d98;
+}
+
+.placePrice {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: lightcoral;
 }

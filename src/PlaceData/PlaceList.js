@@ -5,12 +5,14 @@ import PlaceDetails from "./PlaceDetails";
 
 const PlaceList = () => {
     return (
-        <div>
-            <PlaceDetails />
-            <PlaceDetails />
-            <PlaceDetails />
-            <PlaceDetails />
-            <PlaceDetails />
+        <div className="container">
+            <div className="row">
+                <PlaceDetails />
+                <PlaceDetails />
+                <PlaceDetails />
+                <PlaceDetails />
+                <PlaceDetails />
+            </div>
         </div>
     );
 }
