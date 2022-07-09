@@ -8,7 +8,6 @@ const AppTitle = () => {
             <main>
                 <h1>Pleace To Visit</h1>
                 <div className="borderBottom">
-
                 </div>
             </main>
         </React.Fragment>
