@@ -2,22 +2,22 @@ import React from "react";
 
 import "./PlaceDetails.css"
 
-const PlaceDetails = () => {
+const PlaceDetails = ({ imgUrl, placeName, placePrice, placeDesc, place }) => {
     return (
         <div className="col-md-4">
             <article className="mainPlace">
-                <img alt="sadsa" src="https://www.toureiffel.paris/sites/default/files/actualite/image_principale/vue_depuisjardins_webbanner_3.jpg" />
+                <img alt={placeName} src={imgUrl} />
                 <div className="placeInfo">
                     <header className="placeHeader">
-                        <b className="placeName">skfnsojd</b>
-                        <p className="placePrice">$123</p>
+                        <b className="placeName">{placeName}, <br />{place}</b>
+                        <p className="placePrice">${placePrice}</p>
                     </header>
                     <p className="placeDesc">
-                        vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats
+                        {placeDesc}
                     </p>
                 </div>
-            </article>
-        </div>
+            </article >
+        </div >
 
     );
 }
