@@ -2,9 +2,8 @@ import React from "react"
 
 import "./PlaceDetails";
 import PlaceDetails from "./PlaceDetails";
-import place from "../Data"
 
-const PlaceList = () => {
+const PlaceList = ({ place }) => {
     return (
         <div className="container">
             <div className="row">
